@@ -6,7 +6,7 @@ This intentionally buggy react-application was built to facilitate interviews fo
 
 Before getting started on this projects, users will need the following applications installed:
 - Git, for cloning the repository;
-- Node/npm, for running the application.
+- Node/npm, for running the application; minimum version `Node v12`.
 
 
 ## Getting Started
