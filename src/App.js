@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 import _ from 'lodash';
 import { withStyles } from '@material-ui/core/styles';
 import {
@@ -51,9 +50,6 @@ class App extends React.Component {
   // Toggle the isCompleted flag on a given todo
   toggleComplete(todo) {
     todo.isCompleted = !todo.isCompleted;
-    const clonedTodos = [...this.state.todos]
-    // this.state.todos = clonedTodos;
-    this.setState({ todos: clonedTodos })
   }
 
   render() {
@@ -125,7 +121,7 @@ class App extends React.Component {
                   variant="caption"
                 >
                   Completed Items
-              </Typography>
+                </Typography>
               </li>
             </>
           )}
